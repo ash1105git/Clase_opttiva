@@ -68,9 +68,59 @@
 
     //Ejercicio práctico:
 
-
-
-
- 
+    /*1. Crear una clase Libro con propiedades como título, autor y año de publicación. Agregar un método
+    para mostrar la información del libro.*/
    
+    class Libro {
+        constructor(titulo, autor, anio) {
+            this.titulo = titulo;
+            this.autor = autor;
+            this.anio = anio;
+        }
+            mostrarInformacion() {
+            console.log(`Título: ${this.titulo}, Autor: ${this.autor}, Año: ${this.anio}`);
+        }
+    }
+    
+    
+        /*2. Crear una clase Estudiante que herede de Persona y tenga una propiedad adicional llamada
+    carrera. Agregar un método para mostrar la información del estudiante.*/
+
+    class Estudiante extends Persona {
+        constructor(nombre, edad, carrera) {
+            super(nombre, edad);
+            this.carrera = carrera;
+        }
+    
+        mostrarInformacion() {
+            console.log(`Nombre: ${this.nombre}, Edad: ${this.edad}, Carrera: ${this.carrera}`);
+        }
+    }
+
+     
+    /*3. Crear una clase CuentaBancaria con métodos depositar(), retirar() y consultarSaldo().*/
+    class CuentaBancaria {
+        constructor(saldoInicial) {
+            this.saldo = saldoInicial;
+        }
+    
+        depositar(monto) {
+            this.saldo += monto;
+            console.log(`Depositaste ${monto}. Saldo actual: ${this.saldo}`);
+        }
+    
+        retirar(monto) {
+            if (monto <= this.saldo) {
+                this.saldo -= monto;
+                console.log(`Retiraste ${monto}. Saldo actual: ${this.saldo}`);
+            } else {
+                console.log("Fondos insuficientes.");
+            }
+        }
+    
+        consultarSaldo() {
+            console.log(`Saldo actual: ${this.saldo}`);
+        }
+    }
+    
 
