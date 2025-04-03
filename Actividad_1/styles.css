@@ -1,0 +1,112 @@
+
+    body{
+        margin: 20px;
+        color: aliceblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+        border: 100px;
+        background-color: rgb(192, 230, 240,40%);
+        background-image: linear-gradient(to right, #1c2833,  #a41db3);
+
+    }
+    h1 {
+        color: rgb(241, 240, 244);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 48px;
+    }
+    .highlight {
+            background-color: #7681d3;
+        }
+
+        
+
+        footer{
+            background-color: coral;
+            color: antiquewhite;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+       
+       h3 {
+        color: rgb(241, 240, 244);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 24px;
+       }
+         h2 {
+          color: rgb(241, 240, 244);
+         font-family:Georgia, 'Times New Roman', Times, serif;
+                    font-size: 36px;
+          text-align: center;
+         }
+
+         #redes-sociales {
+            background-color: #acb2e3;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px 0;
+            border-radius: 10px;
+            font-size: 18px;
+            border-color: #646cab;
+            border-style: solid;
+            border-width: 5px;
+         }
+
+         #hobbies {
+            background-color: #96e592;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px 0;
+            border-radius: 10px;
+            font-size: 18px;
+            border-color: #44a53e;
+            border-style: solid;
+            border-width: 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         }
+
+         #perfil-profesional {
+            background-color: #e99489;
+            color: white;
+            padding: 20px;
+            text-align: justify;
+            margin: 20px 0;
+            border-radius: 10px;
+            font-size: 18px;
+            border-color: #f16451;
+            border-style: solid;
+            border-width: 5px;
+            font-family: cursive;  
+         }
+
+         .box {
+            border: 5px solid rgb(211, 211, 232);
+            width: 300px;
+            height: 200px;
+            margin-top: auto;
+          }
+          
+          img {
+            height: 100%;
+            opacity: 0.8;
+            transition: opacity 0.5s;
+        
+          }
+
+          nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 24px;
+            border-bottom: 1px solid var(--very-light-pink);
+            color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            background-image: linear-gradient(to right, #1c2833,  #a41db3)
+        }
+
+         
+          
